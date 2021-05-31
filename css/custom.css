@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a, a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+
+}
+.container{width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.row{
+    
+display: flex;
+    
+flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+
+
+
+/***header***/
+
+.vh-100{
+    height: 100vh;
+
+}
+ header{
+    
+    /*background-image: url(../images/women.jpg);**/
+    background-size: 63%;
+    background-repeat: no-repeat;
+    background-position-x: 140%;
+    position: relative;
+}
+
+.logo{
+    max-width: 15%;
+    flex-basis: 15%;
+    padding: 15px;
+}
+.logo a{}
+.logo a img{}
+nav{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+}
+    
+nav ul li{}
+nav ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #282640;
+    padding: 10px;
+    display: block;
+    font-weight: 500;
+}
+nav ul li a:hover, nav ul li a:visited, nav ul li a:focus{
+    color: #ff6062;
+}
+.purchase{
+    max-width: 35%;
+    flex-basis: 35%;
+    padding: 15px;
+    text-align: center;
+}
+.purches-btn a{
+    background-color: #ff6062;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.purches-btn a:hover{
+    background-color: #dc4749;
+}
+
+
+.col-1-2{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding: 15px;
+}
+h1{
+    color: #282640;
+    font-size: 3em;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 50px 0;
+}
+p{
+    font-size: 16px;
+    color: #8c8282;
+    font-weight: 100;
+}
+.arrow{
+    color: #8c828287;
+    font-size: 25px;
+}
+.arrow:hover{color: #8c8282;}
+
+.banner-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.banner-img img{
+    height: 100%;
+    max-width: initial !important;
+    transform: translateX(-40px);
+}
+/*****portfolio-section****/
+.portfolio-section{
+    padding: 100px 0;
+}
+.heading{
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 534px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading h2{
+    color: #282640;
+    font-size: 1em;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.heading p{
+    font-size: 14px;
+    font-style: italic;
+}
+.col-1-4{
+    max-width: 25%;
+    flex-basis: 25%;
+    padding: 15px;
+}
+.portfolio{
+    position: relative;
+    display: block;
+}
+.portfolio img{
+    width: 100%;
+    transition: all .4s;
+}
+.portfolio:hover img:first-child{
+    opacity: 0;
+}
+
+
+.portfolio img:last-child{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: -1
+}
+h3{
+      color: #282640;
+    font-size: 1em;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.features-section{
+    padding: 100px 0;
+}
+.col-1-3{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+.features{
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.features h4{
+    color: #282640;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10;
+}
+.features span{color: #ff6062;background-color: #fff;display: inline-block;padding: 18px;font-size: 25px;border-radius: 50%;}
+.features p{}
+footer{
+    background-color: #393846;
+    padding: 50px 0;
+    text-align: center;
+     margin-top: 10px;
+}
+footer h1{
+    color: #FFF;
+    max-width: 494px;
+    margin: auto;
+    margin-bottom: 33px;
+     line-height: 1.2;
+}
+footer img{
+    margin: auto;
+    margin-top: 30px;
+}
